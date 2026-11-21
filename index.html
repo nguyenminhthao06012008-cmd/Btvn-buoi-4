@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>ĐƠN ỨNG TUYỂN</title>
+</head>
+<body style="background-color: #F2DACE">
+
+    <div style="max-width: 650px; margin: 0 auto; padding: 30px 35px; border: 1px solid #e0e0e0; border-radius: 6px; background-color: #ffffff;">
+
+
+        <h2 style="text-align: center; font-size: 30px; font-weight: bold; color: #D8A2A2; margin-top: 5px; margin-bottom: 25px;">
+            ĐƠN ỨNG TUYỂN 
+        </h2>
+   
+            <fieldset style="border: 1px solid #dcdcdc; border-radius: 5px; padding: 18px 20px; margin-bottom: 22px;">
+                <legend style="font-weight: bold; font-size: 15px; color: #222222; padding: 0 8px;">
+                    Thông tin cá nhân
+                </legend>
+
+
+                <div style="margin-bottom: 16px;">
+                    <label for="fullname" style="display: block; font-size: 14px; color: #111111; margin-bottom: 6px;">
+                        Họ và tên
+                    </label>
+                    <input type="text" id="fullname" name="fullname" required 
+                           style="width: 100%; padding: 10px; border: 1px solid #cccccc; border-radius: 4px; box-sizing: border-box; font-size: 14px;">
+                </div>
+
+  
+                <div style="margin-bottom: 16px;">
+                    <label for="email" style="display: block; font-size: 14px; color: #111111; margin-bottom: 6px;">
+                        Địa chỉ Email
+                    </label>
+                    <input type="email" id="email" name="email" required 
+                           style="width: 100%; padding: 10px; border: 1px solid #cccccc; border-radius: 4px; box-sizing: border-box; font-size: 14px;">
+                </div>
+
+    
+                <div style="margin-bottom: 4px;">
+                    <label for="phone" style="display: block; font-size: 14px; color: #111111; margin-bottom: 6px;">
+                        Số điện thoại
+                    </label>
+                    <input type="tel" id="phone" name="phone" required 
+                           style="width: 100%; padding: 10px; border: 1px solid #cccccc; border-radius: 4px; box-sizing: border-box; font-size: 14px;">
+                </div>
+            </fieldset>
+
+
+            <fieldset style="border: 1px solid #dcdcdc; border-radius: 5px; padding: 18px 20px; margin-bottom: 22px;">
+                <legend style="font-weight: bold; font-size: 15px; color: #222222; padding: 0 8px;">
+                    Hồ sơ ứng tuyển
+                </legend>
+
+
+                <div style="margin-bottom: 18px;">
+                    <label for="coverletter" style="display: block; font-size: 14px; color: #111111; margin-bottom: 6px;">
+                        Thư giới thiệu bản thân </label>
+                    <textarea id="coverletter" name="coverletter" rows="7" 
+                              placeholder="Nhập nội dung" required
+                              style="width: 100%; padding: 10px; border: 1px solid #cccccc; border-radius: 4px; box-sizing: border-box; font-family: 'Courier New', Courier, monospace; font-size: 14px; resize: vertical;"></textarea>
+                </div>
+
+                <div style="margin-bottom: 4px;">
+                    <label for="resume" style="display: block; font-size: 14px; color: #111111; margin-bottom: 8px;">
+                        Tải lên CV/Resume </label>
+                    <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required 
+                           style="font-size: 14px; color: #333333;">
+                </div>
+            </fieldset>
+
+
+            <button type="submit" 
+                    style="width: 100%; background-color: #D8A2A2; color: #ffffff; font-size: 16px; font-weight: bold; padding: 13px; border: none; border-radius: 5px; cursor: pointer;">
+                GỬI
+            </button>
+
+        </form>
+    </div>
+
+</body>
+</html>
